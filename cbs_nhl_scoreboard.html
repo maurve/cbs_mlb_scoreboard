@@ -40,7 +40,7 @@
     </form><br id="playoffsBreak">
     <form>
         <label id="roundLabel">round + series:</label>
-        <input type="text" id="roundValue" size ="40" onchange="roundInput()">
+        <input type="text" id="roundValue" size ="35" onchange="roundInput()">
     </form><br id="roundBreak">
     <form>
         <label>away team:</label>
@@ -82,11 +82,11 @@
     </form><br>
     <form>
         <label id="awayLabel">away team seed:</label>
-        <input type="text" id="team1SeedValue" maxlength="2" onchange="team1SeedInput()">
+        <input type="text" id="team1SeedValue" maxlength="2" size ="2" onchange="team1SeedInput()">
     </form><br id="awayBreak">
     <form>
         <label>away team score:</label>
-        <input type="number" id="team1ScoreValue" maxlength ="2" onchange="team1ScoreInput()">
+        <input type="number" id="team1ScoreValue" maxlength ="2" size="2" onchange="team1ScoreInput()">
     </form><br>
     <form>
         <label>home team:</label>
@@ -128,11 +128,11 @@
     </form><br>
     <form>
         <label id="homeLabel">home team seed:</label>
-        <input type="text" id="team2SeedValue" maxlength="2" onchange="team2SeedInput()">
+        <input type="text" id="team2SeedValue" maxlength="2" size="2" onchange="team2SeedInput()">
     </form><br id="homeBreak">
     <form>
         <label>home team score:</label>
-        <input type="number" id="team2ScoreValue" maxlength="2" onchange="team2ScoreInput()">
+        <input type="number" id="team2ScoreValue" maxlength="2" size="2" onchange="team2ScoreInput()">
     </form><br>
     <form>
         <label id="overtimeLabel">overtime?</label>
@@ -144,7 +144,7 @@
     </form>
     <form>
         <label id="overtimePostLabel">overtimes:</label>
-        <input type="number" id="overtimePostValue" onchange="overtimePost()">
+        <input type="number" id="overtimePostValue" maxlength="2" size="2" onchange="overtimePost()">
     </form>
     <script src="js/cbs_nhl_scoreboard.js"></script>
 </body>
