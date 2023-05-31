@@ -86,7 +86,7 @@
     </form><br id="awayBreak">
     <form>
         <label>away team score:</label>
-        <input type="number" id="team1ScoreValue" maxlength ="2" size="2" onchange="team1ScoreInput()">
+        <input type="number" id="team1ScoreValue" min="0" max="99" size="2" onchange="team1ScoreInput()">
     </form><br>
     <form>
         <label>home team:</label>
@@ -132,7 +132,7 @@
     </form><br id="homeBreak">
     <form>
         <label>home team score:</label>
-        <input type="number" id="team2ScoreValue" maxlength="2" size="2" onchange="team2ScoreInput()">
+        <input type="number" id="team2ScoreValue" min="0" max="99" size="2" onchange="team2ScoreInput()">
     </form><br>
     <form>
         <label id="overtimeLabel">overtime?</label>
@@ -144,7 +144,7 @@
     </form>
     <form>
         <label id="overtimePostLabel">overtimes:</label>
-        <input type="number" id="overtimePostValue" maxlength="2" size="2" onchange="overtimePost()">
+        <input type="number" id="overtimePostValue" min="0" max="99" size="2" onchange="overtimePost()">
     </form>
     <script src="js/cbs_nhl_scoreboard.js"></script>
 </body>
