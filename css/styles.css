@@ -1,0 +1,138 @@
+#round {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 500px;
+    height: 35px;
+    display: none;
+}
+
+#roundText {
+    margin-left: 10px;
+}
+
+#cbsLogo {
+    float: left;
+    background-color: black;
+    width: 125px;
+    height: 160px;
+}
+
+#cbs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 160px;
+}
+
+#team1 {
+    height: 80px;
+    width: 500px;
+    background-color: black;
+}
+
+#team1SVG {
+    margin-left: 5px;
+    float: left;
+}
+
+#team1Name { 
+    color: white;
+    font-size: 50px;
+    left: 250px;
+    margin-top: 5px;
+    position: absolute;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#team1Seed {
+    color: white;
+    float: left;
+    font-size: 25px;
+    margin-left: 9px;
+    margin-top: 31.5px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#playoffsBreak, #roundLabel, #roundValue, #awayLabel, #awayBreak, #homeLabel, #homeBreak, #team1SeedValue, #team2SeedValue, #overtimePostLabel, #overtimePostValue {
+    display: none;
+}
+
+#team1Score {
+    color: white;
+    font-size: 55px;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#team2 {
+    height: 80px;
+    width: 500px;
+    background-color: black;
+}
+
+#team2SVG {
+    margin-left: 5px;
+    float: left;
+}
+
+#team2Name { 
+    color: white;
+    font-size: 50px;
+    left: 250px;
+    margin-top: 5px;
+    position: absolute;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#team2Seed {
+    color: white;
+    float: left;
+    font-size: 25px;
+    margin-left: 9px;
+    margin-top: 31.5px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#team2Score {
+    color: white;
+    font-size: 55px;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#result {
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
