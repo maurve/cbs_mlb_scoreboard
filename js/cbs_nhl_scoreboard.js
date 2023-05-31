@@ -49,19 +49,19 @@ function team1Pick() {
         case 'ana':
             team1SVG.src = "img/ducks.svg";
             team1Name.innerHTML = 'ANA';
-            team1.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#010101';
             team1Score.style.backgroundColor = '#000000';
             break;
         case 'ari':
             team1SVG.src = "img/coyotes.svg";
             team1Name.innerHTML = 'ARI';
-            team1.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#010101';
             team1Score.style.backgroundColor = '#000000';
             break;
         case 'bos':
             team1SVG.src = "img/bruins.svg";
             team1Name.innerHTML = 'BOS';
-            team1.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#010101';
             team1Score.style.backgroundColor = '#000000';
             break;
         case 'buf':
@@ -169,19 +169,19 @@ function team1Pick() {
         case 'ott':
             team1SVG.src = "img/senators.svg";
             team1Name.innerHTML = 'OTT';
-            team1.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#010101';
             team1Score.style.backgroundColor = '#000000';
             break;
         case 'phi':
             team1SVG.src = "img/flyers.svg";
             team1Name.innerHTML = 'PHI';
-            team1.style.backgroundColor = '#FA4616';
+            team1.style.backgroundColor = '#fa4616';
             team1Score.style.backgroundColor = '#f93b08';
             break;
         case 'pit':
             team1SVG.src = "img/penguins.svg";
             team1Name.innerHTML = 'PIT';
-            team1.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#010101';
             team1Score.style.backgroundColor = '#000000';
             break;
         case 'sj':
@@ -193,8 +193,8 @@ function team1Pick() {
         case 'sea':
             team1SVG.src = "img/kraken.svg";
             team1Name.innerHTML = 'SEA';
-            team1.style.backgroundColor = '#051C2C';
-            team1Score.style.backgroundColor = '#041a29';
+            team1.style.backgroundColor = '#041c2c';
+            team1Score.style.backgroundColor = '#031a29';
             break;
         case 'stl':
             team1SVG.src = "img/blues.svg";
@@ -223,8 +223,8 @@ function team1Pick() {
         case 'vgk':
             team1SVG.src = "img/golden_knights.svg";
             team1Name.innerHTML = 'VGK';
-            team1.style.backgroundColor = '#333F48';
-            team1Score.style.backgroundColor = '#303b44';
+            team1.style.backgroundColor = '#b9975b';
+            team1Score.style.backgroundColor = '#b49051';
             break;
         case 'wsh':
             team1SVG.src = "img/capitals.svg";
@@ -257,19 +257,19 @@ function team2Pick() {
         case 'ana':
             team2SVG.src = "img/ducks.svg";
             team2Name.innerHTML = 'ANA';
-            team2.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#010101';
             team2Score.style.backgroundColor = '#000000';
             break;
         case 'ari':
             team2SVG.src = "img/coyotes.svg";
             team2Name.innerHTML = 'ARI';
-            team2.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#010101';
             team2Score.style.backgroundColor = '#000000';
             break;
         case 'bos':
             team2SVG.src = "img/bruins.svg";
             team2Name.innerHTML = 'BOS';
-            team2.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#010101';
             team2Score.style.backgroundColor = '#000000';
             break;
         case 'buf':
@@ -377,19 +377,19 @@ function team2Pick() {
         case 'ott':
             team2SVG.src = "img/senators.svg";
             team2Name.innerHTML = 'OTT';
-            team2.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#010101';
             team2Score.style.backgroundColor = '#000000';
             break;
         case 'phi':
             team2SVG.src = "img/flyers.svg";
             team2Name.innerHTML = 'PHI';
-            team2.style.backgroundColor = '#FA4616';
+            team2.style.backgroundColor = '#fa4616';
             team2Score.style.backgroundColor = '#f93b08';
             break;
         case 'pit':
             team2SVG.src = "img/penguins.svg";
             team2Name.innerHTML = 'PIT';
-            team2.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#010101';
             team2Score.style.backgroundColor = '#000000';
             break;
         case 'sj':
@@ -401,8 +401,8 @@ function team2Pick() {
         case 'sea':
             team2SVG.src = "img/kraken.svg";
             team2Name.innerHTML = 'SEA';
-            team2.style.backgroundColor = '#051C2C';
-            team2Score.style.backgroundColor = '#041a29';
+            team2.style.backgroundColor = '#041c2c';
+            team2Score.style.backgroundColor = '#031a29';
             break;
         case 'stl':
             team2SVG.src = "img/blues.svg";
@@ -431,8 +431,8 @@ function team2Pick() {
         case 'vgk':
             team2SVG.src = "img/golden_knights.svg";
             team2Name.innerHTML = 'VGK';
-            team2.style.backgroundColor = '#333F48';
-            team2Score.style.backgroundColor = '#303b44';
+            team2.style.backgroundColor = '#b9975b';
+            team2Score.style.backgroundColor = '#b49051';
             break;
         case 'wsh':
             team2SVG.src = "img/capitals.svg";
