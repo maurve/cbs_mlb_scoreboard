@@ -125,6 +125,10 @@
     font-style: normal;
 }
 
+input[type='number'] {
+    width: 43px;
+}
+
 #result {
     height: 50px;
     width: 500px;
