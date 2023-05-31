@@ -456,7 +456,7 @@ function team2Pick() {
 
 function team1ScoreInput() {
     const team1ScoreValue = document.querySelector('#team1ScoreValue').value;
-    if (team1ScoreValue < 0 || team1ScoreValue == '') {
+    if (team1ScoreValue < 0 || team1ScoreValue == '' || team1ScoreValue > 99) {
         team1Score.innerHTML = '0';
     } else {
         team1Score.innerHTML = team1ScoreValue;
@@ -465,7 +465,7 @@ function team1ScoreInput() {
 
 function team2ScoreInput() {
     const team2ScoreValue = document.querySelector('#team2ScoreValue').value;
-    if (team2ScoreValue < 0 || team2ScoreValue == '') {
+    if (team2ScoreValue < 0 || team2ScoreValue == '' || team2ScoreValue > 99) {
         team2Score.innerHTML = '0';
     } else {
         team2Score.innerHTML = team2ScoreValue;
@@ -498,7 +498,7 @@ function shootout() {
 
 function overtimePost() {
     const overtimePostValue = document.querySelector('#overtimePostValue').value;
-    if (overtimePostValue < 1) {
+    if (overtimePostValue < 1 || overtimePostValue > 99) {
         result.innerHTML = 'FINAL';
     } else if (overtimePostValue == 1) {
         result.innerHTML = 'F/OT';
