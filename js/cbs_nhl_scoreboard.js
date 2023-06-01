@@ -582,6 +582,11 @@ function showPlayoffs() {
 
 function roundInput() {
     roundText.innerHTML = roundValue.value;
+    if (roundValue.value == '') {
+        roundText.innerHTML = 'N/A';
+    } else {
+        
+    }
 }
 
 function teamPositioning() {
