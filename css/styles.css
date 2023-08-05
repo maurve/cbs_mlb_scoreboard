@@ -5,10 +5,11 @@
     font-family: trade-gothic-next, sans-serif;
     font-weight: 700;
     font-style: normal;
-    width: 500px;
+    width: 420px;
     height: 35px;
     display: none;
 }
+
 
 #roundText {
     margin-left: 10px;
@@ -31,19 +32,14 @@
 
 #team1 {
     height: 80px;
-    width: 500px;
+    width: 420px;
     background-color: black;
-}
-
-#team1SVG {
-    margin-left: 5px;
-    float: left;
 }
 
 #team1Name { 
     color: white;
     font-size: 50px;
-    left: 250px;
+    left: 160px;
     margin-top: 5px;
     position: absolute;
     font-family: trade-gothic-next, sans-serif;
@@ -81,19 +77,14 @@
 
 #team2 {
     height: 80px;
-    width: 500px;
+    width: 420px;
     background-color: black;
-}
-
-#team2SVG {
-    margin-left: 5px;
-    float: left;
 }
 
 #team2Name { 
     color: white;
     font-size: 50px;
-    left: 250px;
+    left: 160px;
     margin-top: 5px;
     position: absolute;
     font-family: trade-gothic-next, sans-serif;
@@ -131,7 +122,7 @@ input[type='number'] {
 
 #result {
     height: 50px;
-    width: 500px;
+    width: 420px;
     background-color: black;
     color: white;
     font-size: 35px;
