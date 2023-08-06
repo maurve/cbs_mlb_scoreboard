@@ -37,8 +37,8 @@ function team1Pick() {
     switch(team1Select.value) {
         case 'none':
             team1Name.innerHTML = 'N/A';
-            team1.style.backgroundColor = 'black';
-            team1Score.style.backgroundColor = 'black';
+            team1.style.backgroundColor = '#191919';
+            team1Score.style.backgroundColor = '#171717';
             break;
         case 'ari':
             team1Name.innerHTML = 'ARI';
@@ -67,8 +67,8 @@ function team1Pick() {
             break;
         case 'chw':
             team1Name.innerHTML = 'CHW';
-            team1.style.backgroundColor = '#000000';
-            team1Score.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#191919';
+            team1Score.style.backgroundColor = '#171717';
             break;
         case 'cin':
             team1Name.innerHTML = 'CIN';
@@ -112,8 +112,8 @@ function team1Pick() {
             break;
         case 'mia':
             team1Name.innerHTML = 'MIA';
-            team1.style.backgroundColor = '#000000';
-            team1Score.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#191919';
+            team1Score.style.backgroundColor = '#171717';
             break;
         case 'mil':
             team1Name.innerHTML = 'MIL';
@@ -147,8 +147,8 @@ function team1Pick() {
             break;
         case 'pit':
             team1Name.innerHTML = 'PIT';
-            team1.style.backgroundColor = '#000000';
-            team1Score.style.backgroundColor = '#000000';
+            team1.style.backgroundColor = '#191919';
+            team1Score.style.backgroundColor = '#171717';
             break;
         case 'sd':
             team1Name.innerHTML = 'SD';
@@ -192,8 +192,8 @@ function team1Pick() {
             break;
         default:
             team1Name.innerHTML = 'N/A';
-            team1.style.backgroundColor = 'black';
-            team1Score.style.backgroundColor = 'black';
+            team1.style.backgroundColor = '#191919';
+            team1Score.style.backgroundColor = '#171717';
     }
 }
 
@@ -201,8 +201,8 @@ function team2Pick() {
     switch(team2Select.value) {
         case 'none':
             team2Name.innerHTML = 'N/A';
-            team2.style.backgroundColor = 'black';
-            team2Score.style.backgroundColor = 'black';
+            team2.style.backgroundColor = '#191919';
+            team2Score.style.backgroundColor = '#171717';
             break;
         case 'ari':
             team2Name.innerHTML = 'ARI';
@@ -231,8 +231,8 @@ function team2Pick() {
             break;
         case 'chw':
             team2Name.innerHTML = 'CHW';
-            team2.style.backgroundColor = '#000000';
-            team2Score.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#191919';
+            team2Score.style.backgroundColor = '#171717';
             break;
         case 'cin':
             team2Name.innerHTML = 'CIN';
@@ -276,8 +276,8 @@ function team2Pick() {
             break;
         case 'mia':
             team2Name.innerHTML = 'MIA';
-            team2.style.backgroundColor = '#000000';
-            team2Score.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#191919';
+            team2Score.style.backgroundColor = '#171717';
             break;
         case 'mil':
             team2Name.innerHTML = 'MIL';
@@ -311,8 +311,8 @@ function team2Pick() {
             break;
         case 'pit':
             team2Name.innerHTML = 'PIT';
-            team2.style.backgroundColor = '#000000';
-            team2Score.style.backgroundColor = '#000000';
+            team2.style.backgroundColor = '#191919';
+            team2Score.style.backgroundColor = '#171717';
             break;
         case 'sd':
             team2Name.innerHTML = 'SD';
@@ -356,8 +356,8 @@ function team2Pick() {
             break;
         default:
             team2Name.innerHTML = 'N/A';
-            team2.style.backgroundColor = 'black';
-            team2Score.style.backgroundColor = 'black';
+            team2.style.backgroundColor = '#191919';
+            team2Score.style.backgroundColor = '#171717';
     }
 }
 

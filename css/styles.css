@@ -33,7 +33,7 @@
 #team1 {
     height: 80px;
     width: 420px;
-    background-color: black;
+    background-color: #191919;
 }
 
 #team1Name { 
@@ -69,7 +69,7 @@
     width: 100px;
     text-align: center;
     float: right;
-    background-color: black;
+    background-color: #171717;
     font-family: trade-gothic-next, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -78,7 +78,7 @@
 #team2 {
     height: 80px;
     width: 420px;
-    background-color: black;
+    background-color: #191919;
 }
 
 #team2Name { 
@@ -110,7 +110,7 @@
     width: 100px;
     text-align: center;
     float: right;
-    background-color: black;
+    background-color: #171717;
     font-family: trade-gothic-next, sans-serif;
     font-weight: 700;
     font-style: normal;
